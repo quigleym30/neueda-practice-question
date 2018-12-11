@@ -6,7 +6,7 @@ public class ConvertToCelsius {
  Scanner scan = new Scanner(System.in); 
 		 
 		 double  fahrenheit = scan.nextDouble(); 
-		 double  celsius =(fahrenheit-32)*(0.5556);
+		 double  celsius =(fahrenheit-32)*((double) 5/9);
 		 System.out.println(celsius);
 	}
 
